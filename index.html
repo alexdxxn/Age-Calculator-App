@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  
+  
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="up-box">
+    <div class="day">
+      <label class="day smoke" for="day">Day</label><br>
+      <input placeholder="DD" type="number" id="day" name="day" required><br>
+      <h3 class="day"></h3>
+    </div>
+    
+    <div class="month">
+      <label class="month smoke" for="month">Month</label><br>
+      <input placeholder="MM" type="number" id="month" name="month" required>
+      <h3 class="month"></h3>
+    </div>
+    
+    <div class="year">
+      <label class="year smoke" for="year">Year</label><br>
+      <input placeholder="YYYY" type="number" id="year" name="year" required>
+      <h3 class="year"></h3>
+    </div>
+ 
+
+  </div>
+
+  <div class="divider"><div><button class="circle"><img src="./assets/images/icon-arrow.svg"></button></div></div>
+
+  <div class="down-box">
+    <div class="year-result">
+      <p><span class="purple year-output">--</span> years</p>
+    </div>
+
+    <div class="month-result">
+      <p><span class="purple month-output">--</span> months</p>
+
+    </div>
+
+    <div class="day-result">
+      <p><span class="purple day-output">--</span> days</p>
+    </div> 
+
+  </div>
+
+  <footer>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/alexdxxn">Alexander Altuve</a>.
+  </div>
+  </footer>
+
+</div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script charset="UTF-8" src="./index.js"></script>
+</body>
+</html>
